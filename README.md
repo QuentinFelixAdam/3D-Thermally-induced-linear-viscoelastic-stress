@@ -6,7 +6,7 @@ The code, named "ThermalVE.f90", is implemented in Fortran and takes as input a 
 
 The compiler is GNU Fortran (GCC) Version 4.8.5 20150623. There is a possibility to parallelize the code with OpenMP.
 
-In order to run the code, make sure all files are in the same folder ("ThermalVE.f90" and "Tsurface.dat"), open a terminal to navigate to the folder in which the files are placed, and type "f90 -free ThermalVE.f90 -o exe" followed by "exe".
+In order to run the code, make sure all files are in the same folder ("ThermalVE.f90" and "Tsurface.dat"), open a terminal to navigate to the folder in which the files are placed, and type "f90 -free ThermalVE.f90 -o exe" followed by "exe". An example file "Tsurface.dat" is provided.
 
 This code is based on a research paper to be published any time soon -- hopefully. Should you want to reuse that code and this paper be published, I will embed here a citation.
 
