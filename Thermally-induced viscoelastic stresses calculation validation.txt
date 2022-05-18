@@ -1,0 +1,24 @@
+The calculation of thermally-induced viscoelastic stresses were validated against a thermal stress restrained specimen test performed at IBQ. In this test, a mastic asphalt specimen was exposed to a cooling rate of 10°C / h from an initial temperature of 20°C. The specimen was clamped at its ends, preventing it from shrinking, and the resulting stress build-up was recorded until failure occurred. The temperature, measured stress, and calculated stress are presented below:
+
+Temperature [°C]	Measured stress [MPa]	Calculated stress [MPa]
+20	-0.017	-0.017
+19	-0.226	-0.443
+18	-0.445	-0.618
+17	-0.556	-0.788
+16	-0.778	-0.958
+15	-0.95	-1.133
+14	-1.111	-1.314
+13	-1.278	-1.502
+12	-1.556	-1.698
+11	-1.778	-1.903
+10	-2.01	-2.118
+9	-2.333	-2.345
+8	-2.5	-2.582
+7	-2.833	-2.832
+6	-3.111	-3.095
+5	-3.324	-3.371
+4	-3.667	-3.662
+3	-3.944	-3.968
+2	-4.189	-4.291
+
+An average difference of 0.11 MPa is observed between measured and calculated stresses. The code calculating thermally-induced viscoelastic stresses for such beam is "ThermalVE-BEAM.f90". The temperature
