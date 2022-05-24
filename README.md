@@ -8,6 +8,8 @@ The compiler is GNU Fortran (GCC) Version 4.8.5 20150623. There is a possibility
 
 In order to run the code, make sure all files are in the same folder ("ThermalVE.f90" and "Tsurface.dat"), open a terminal to navigate to the folder in which the files are placed, and type "f90 -free ThermalVE.f90 -o exe" followed by "exe". An example file "Tsurface.dat" is provided.
 
+The code is validated against measurements. Please see the file "Thermally-induced viscoelastic stresses calculation validation.txt".
+
 This code is based on a research paper to be published any time soon -- hopefully. Should you want to reuse that code and this paper be published, I will embed here a citation.
 
 For any question: contact me via quentin.f.adam@gmail.com
