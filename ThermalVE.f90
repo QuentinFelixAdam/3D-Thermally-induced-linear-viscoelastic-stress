@@ -31,7 +31,7 @@ Nu = 0.25
 factor = AlphaT/(1.0-Nu)
 nlinesVE = 0
 
-OPEN(51,FILE='Tsurface.dat',STATUS='old')
+OPEN(51,FILE='Surfacetemp.dat',STATUS='old')
 DO
    READ(51,*,END=19)
    nlinesVE = nlinesVE + 1
@@ -40,7 +40,7 @@ END DO
 
 ALLOCATE(listVEsubroutlocal(nlinesVE))
 
-OPEN(51,FILE='Tsurface - long.dat',STATUS='old')
+OPEN(51,FILE='Tsurface.dat',STATUS='old')
 
 DO i = 1,nlinesVE
    READ(51,*) listVEsubroutlocal(i)
