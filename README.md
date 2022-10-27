@@ -10,6 +10,6 @@ In order to run the code, make sure all files are in the same folder ("ThermalVE
 
 The code is validated against measurements. Please see the file "Thermally-induced viscoelastic stresses calculation validation.txt".
 
-This code is based on a research paper to be published any time soon -- hopefully. Should you want to reuse that code and this paper be published, I will embed here a citation.
+To cite this code please refer to: https://www.sciencedirect.com/science/article/pii/S0165232X22002002.
 
 For any question: contact me via quentin.f.adam@gmail.com
